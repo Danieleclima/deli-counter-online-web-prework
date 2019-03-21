@@ -16,11 +16,8 @@ end
 
 def take_a_number (katz_deli, name)
   katz_deli << name
-  if katz_deli.size <= 1
-    puts "Welcome, #{name}. You are number 1 in line."
-  else
-    position = katz_deli.size
-    puts "Welcome, #{name}. You are number #{position} in line."
+  
+ 
   end
 end
 
